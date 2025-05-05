@@ -1,0 +1,27 @@
+.boxes_container{
+    display: flex;
+    width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    height: 60vh;
+}
+
+.box {
+    flex: 1; /* Each box takes equal width */
+    min-height: 100%; /* Fill container height */
+    
+    border: 1px solid  aqua;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 20px;
+    padding-top: 10px;
+    margin: 10px;
+}
+
+.title {
+    text-align: center;
+    padding: 20px;
+}
