@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from "react";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const CS357 = () => {
@@ -10,8 +10,8 @@ const CS357 = () => {
         {name: "MPs", contribution: 10, amt_earned: null, status: "Completed"},
         {name: "Group Activities", contribution: 11, amt_earned: null, status: "Completed"},
         {name: "Pre-Lecture Activities", contribution: 4, amt_earned: null, status: "Completed"},
-        {name: "Final Exam", contribution: 15, amt_earned: null, status: "Not Completed"},
-        {name: "Total", contribution: null, amt_earned: null, status: "Not Completed"}
+        {name: "Final Exam", contribution: 15, amt_earned: null, status: "Completed"},
+        {name: "Total", contribution: null, amt_earned: null, status: "Completed"}
     ];
 
     // average grade for each topic
@@ -21,7 +21,7 @@ const CS357 = () => {
         {name: "MPs", avg: 0.992},
         {name: "Group Activities", avg: 1.0194047616666666},
         {name: "Pre-Lecture Activities", avg: 1.00},
-        {name: "Final Exam", avg: null}
+        {name: "Final Exam", avg: .8674}
     ];
 
     // calculating and inputting the amount earned based on contribution and average

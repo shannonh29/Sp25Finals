@@ -6,7 +6,7 @@ const Schedule = () => {
 
     return (
         <div class="page">
-            <h1 class="title">Schedule</h1>
+            <h1 class="title_schedule">Schedule</h1>
             <div class="boxes_container">
                 <div class="box">Monday 5/5</div>
                 <div class="box">Tuesday 5/6</div>
